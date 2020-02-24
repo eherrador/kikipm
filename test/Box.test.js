@@ -10,6 +10,8 @@ const Box = contract.fromArtifact('Box');
 
 describe('Box', function () {
   const [ owner, other ] = accounts;
+  console.log("owner ", owner);
+  console.log("other ", other);
 
   // Use large integers ('big numbers')
   const value = new BN('42');

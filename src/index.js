@@ -20,7 +20,7 @@ async function main() {
   console.log("Box value is", value);
 
   // Send a transaction to store() a new value in the Box
-  await box.methods.store(5).send({ from: accounts[0], gas: 50000, gasPrice: 1e6 });
+  await box.methods.store(20).send({ from: accounts[0], gas: 50000, gasPrice: 1e6 });
 
   // Call the retrieve() function of the deployed Box contract
   const value1 = await box.methods.retrieve().call();
