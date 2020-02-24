@@ -1,6 +1,8 @@
 {
   "manifestVersion": "2.2",
-  "contracts": {},
+  "contracts": {
+    "Box": "Box"
+  },
   "dependencies": {},
   "name": "kikipm",
   "version": "1.0.0",
