@@ -17,7 +17,7 @@
     "@truffle/hdwallet-provider": "^1.0.31",
     "chai": "^4.2.0",
     "ganache-cli": "^6.9.1",
-    "mocha": "^7.0.1"
+    "mocha": "^7.2.0"
   },
   "dependencies": {
     "@openzeppelin/contract-loader": "^0.6.1",
